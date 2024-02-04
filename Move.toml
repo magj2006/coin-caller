@@ -1,0 +1,17 @@
+[package]
+name = "CoinCaller"
+version = "1.0.0"
+authors = []
+
+[addresses]
+coin_caller="0xce1ef1c2f7e6bd98105996d0499bd1063d4fa94dc292335e6fb5b8cb1aa1b853"
+
+[dev-addresses]
+
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
